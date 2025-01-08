@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is Form Tag Tutorial</h2>
+    <form action="backend.php"></form>
+    
+    <!--Label used only Name and Rollno filed for practice -->
+    <label for="name">Name:</label> 
+    <div>
+        <input type="text" name="MyName" id="name">
+       </div>
+       <br>
+    <label for="rollno">Roll No:</label>
+    <div>
+        <input type="text" name="MyRollno" id="rollno">
+       </div>
+       <br>
+       <div>
+        Enter Full Address: <textarea name="MyAddress" id="" cols="15" rows="10"></textarea>
+       </div>
+       <br>
+       <div>
+        Email: <input type="email" name="MyEmail">
+        </div>
+        <br>
+       <div>
+        Password: <input type="password" name="MyPassword">
+       </div>
+       <br>
+       <div>
+        Date: <input type="date" name="MyDate">
+       </div>
+       <br>
+       <div>
+        Bonus: <input type="number" name="MyBbonus">
+       </div>
+       <br>
+       <div>
+        Are you eligible?: <input type="checkbox" name="eligible"> <!--Checkbox used for single choice-->
+       </div>
+       <br>
+       <div>
+        Gender: Male <input type="radio" name="gender"> <!--Radio button used for multiple choice-->
+                Female <input type="radio" name="gender">
+                Other <input type="radio" name="gender">
+            </div>
+            <br>
+            <div>
+                <label for="car">Select Car</label>
+                <select name="MyCar" id="car"> <!--Select Tag used for dropdown list -->
+                    <option value="bmw">BMW</option>
+                    <option value="tata">Tata</option>
+                    <option value="maruti">Maruti</option>
+                    <option value="farari">Farari</option>
+                </select>
+            </div>
+            <br>
+            <div>
+            <input type="submit" value="Submit Now"> <!--Submit button used for submit form data-->
+            <input type="reset" value="Reset Now">
+            </div>
+
+<!--   Extra Practice    
+    <div>
+        Name: <input type="text" name="name"><br><br>
+        Roll No: <input type="text" name="rollno"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+       </div>
+    -->    
+
+
+    </form>
+</body>
+</html>
